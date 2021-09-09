@@ -1,0 +1,40 @@
+license="${license}"
+modLoader="javafml"
+loaderVersion="${forgeRange}"
+issueTrackerURL="${issuesUrl}"
+
+[[mods]]
+modId="${id}"
+version="${version}"
+displayName="${name}"
+updateJSONURL="${updateUrl}"
+displayURL="${url}"
+logoFile=""
+credits="${credits}"
+authors="${authors}"
+description='''
+${description}
+'''
+
+[[dependencies.${id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${mcRange}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forgeRange}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${id}]]
+    modId="dynamictrees"
+    mandatory=true
+    versionRange="${dynamicTreesRange}"
+    ordering="AFTER"
+    side="BOTH"
+
+# Add dependency here for mod add-on is supporting, if applicable.

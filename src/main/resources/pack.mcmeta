@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "DT Addon resources",
+        "pack_format": ${packFormat}
+    }
+}
